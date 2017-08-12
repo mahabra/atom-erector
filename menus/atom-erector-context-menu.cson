@@ -1,0 +1,15 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+# 'context-menu':
+#   'atom-text-editor': [
+#     {
+#       'label': 'Toggle useful-context-menu'
+#       'command': 'useful-context-menu:toggle'
+#     }
+#   ]
+'context-menu':
+  '.tree-view': [
+    {
+      'label': 'Erect'
+      'command': 'run-erector-command:run'
+    }
+  ]

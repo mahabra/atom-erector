@@ -1,0 +1,26 @@
+{
+  "name": "atom-erector",
+  "main": "./lib/erector-run-command.js",
+  "version": "0.1.0-beta",
+  "description": "Integrate Erector with your Atom",
+  "repository": "git@github.com:morulus/atom-erector.git",
+  "license": "BSD 2-clause",
+  "keywords": [
+    "erector",
+    "atom"
+  ],
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "run-erector-command:run",
+      "run-erector-command:toggle-panel",
+      "run-erector-command:kill-last-command"
+    ]
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "erector": "github:morulus/erector#8cf489ac30ce2e1f5677eaebfa9d584c086c3c9d"
+  }
+}
